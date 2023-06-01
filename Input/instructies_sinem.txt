@@ -1,0 +1,5 @@
+aan_whitelist_toevoegen: roos@gmail.com
+aan_whitelist_toevoegen: roos2@gmail.com
+van_whitelist_verwijderen: roos@gmail.com
+spamkeyword_toevoegen: rekeningnummer
+spamkeyword_toevoegen: bankkaart

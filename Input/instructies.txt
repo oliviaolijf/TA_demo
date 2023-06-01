@@ -1,0 +1,35 @@
+	--- instructies ---
+
+spamkeyword_toevoegen: rekeningnummer
+spamkeyword_toevoegen: bankkaart
+spamkeyword_verwijderen: bankkaart
+aan_blacklist_toevoegen: js@gm.be
+spam_e-mail_toevoegen: john.smith@gmail.com
+spam_e-mail_toevoegen: bart.smith@gmail.com
+spam_e-mail_verwijderen: bart.smith@gmail.com
+
+	--- e-mails classificeren ---
+
+add_mail_class: School
+add_mail_class: Werk
+remove_from_mail_class: Werk
+aan_whitelist_toevoegen: roos@gmail.com
+spamkeyword_toevoegen: rekeningnummer
+spamkeyword_toevoegen: bankkaart
+
+    --- opslaan in database ---
+
+save_keywords: keywords
+save_accepted_adresses: accepted
+load_keywords: keywords
+load_accepted_adresses: accepted
+
+	--- controleer e-mails ---
+
+
+
+
+	--- einde instructies ---
+
+
+

@@ -1,0 +1,13 @@
+from: persoon@gmail.com
+to: user@gmail.com
+
+subject: afspraak
+
+Hoi, in verband met ons gesprek vorige week mail ik nog even ter herinnering.
+Kan je je aanwezigheid bevestigen op 6 juli?
+School
+persoon@gmail.com
+
+Met vriendelijke groeten,
+Persoon McPersoonsens
+
