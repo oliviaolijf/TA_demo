@@ -1,0 +1,42 @@
+Sun May 28 20:39:47 2023
+../Input/input.txt --- Email contained spam keyword: bankkaart . Mail has been marked as spam!
+
+Sun May 28 20:39:47 2023
+../Input/input.txt --- Email does not contain spam!
+
+Sun May 28 20:39:47 2023
+../Input/spam.txt --- Email contained spam keyword: rekeningnummer . Mail has been marked as spam!
+
+Sun May 28 20:39:47 2023
+../Input/spam.txt --- Email contained spam keyword: rekeningnummer . Mail has been marked as spam!
+
+Sun May 28 21:03:00 2023
+../Input/input.txt --- Email contained spam keyword: bankkaart . Mail has been marked as spam!
+
+Sun May 28 21:03:00 2023
+../Input/input.txt --- Email does not contain spam!
+
+Sun May 28 21:03:00 2023
+../Input/spam.txt --- Email contained spam keyword: rekeningnummer . Mail has been marked as spam!
+
+Sun May 28 21:03:00 2023
+../Input/spam.txt --- Email contained spam keyword: rekeningnummer . Mail has been marked as spam!
+
+Sun May 28 21:08:03 2023
+../Input/input.txt --- Email contained spam keyword: bankkaart . Mail has been marked as spam!
+
+Sun May 28 21:08:03 2023
+../Input/input.txt --- Email does not contain spam!
+
+Sun May 28 21:08:03 2023
+../Input/spam.txt --- Email contained spam keyword: rekeningnummer . Mail has been marked as spam!
+
+Sun May 28 21:08:03 2023
+../Input/spam.txt --- Email contained spam keyword: rekeningnummer . Mail has been marked as spam!
+
+Sun May 28 21:59:05 2023
+../Input/input.txt --- Email does not contain spam!
+
+Sun May 28 21:59:05 2023
+../Input/spam.txt --- Email does not contain spam!
+

@@ -1,0 +1,3 @@
+The DFA with keywords has been added to the database under key keywords.
+geld+zoon
+The filter's keywords have been set to the DFA saved in the database under key keywords.

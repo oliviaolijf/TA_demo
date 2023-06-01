@@ -1,0 +1,412 @@
+{
+  "type": "DFA",
+  "alphabet": [
+    "g",
+    "e",
+    "l",
+    "d",
+    "z",
+    "o",
+    "n"
+  ],
+  "states": [
+    {
+      "name": "0",
+      "starting": true,
+      "accepting": false
+    },
+    {
+      "name": "1",
+      "starting": false,
+      "accepting": false
+    },
+    {
+      "name": "2",
+      "starting": false,
+      "accepting": false
+    },
+    {
+      "name": "3",
+      "starting": false,
+      "accepting": false
+    },
+    {
+      "name": "4",
+      "starting": false,
+      "accepting": true
+    },
+    {
+      "name": "5",
+      "starting": false,
+      "accepting": false
+    },
+    {
+      "name": "6",
+      "starting": false,
+      "accepting": false
+    },
+    {
+      "name": "7",
+      "starting": false,
+      "accepting": false
+    },
+    {
+      "name": "8",
+      "starting": false,
+      "accepting": false
+    },
+    {
+      "name": "9",
+      "starting": false,
+      "accepting": true
+    }
+
+  ],
+  "transitions": [
+    {
+      "from": "0",
+      "to": "1",
+      "input": "g"
+    },
+    {
+      "from": "0",
+      "to": "5",
+      "input": "e"
+    },
+    {
+      "from": "0",
+      "to": "5",
+      "input": "l"
+    },
+    {
+      "from": "0",
+      "to": "5",
+      "input": "d"
+    },
+    {
+      "from": "0",
+      "to": "6",
+      "input": "z"
+    },
+    {
+      "from": "0",
+      "to": "5",
+      "input": "o"
+    },
+    {
+      "from": "0",
+      "to": "5",
+      "input": "n"
+    },
+    {
+      "from": "1",
+      "to": "5",
+      "input": "g"
+    },
+    {
+      "from": "1",
+      "to": "2",
+      "input": "e"
+    },
+    {
+      "from": "1",
+      "to": "5",
+      "input": "l"
+    },
+    {
+      "from": "1",
+      "to": "5",
+      "input": "d"
+    },
+    {
+      "from": "1",
+      "to": "5",
+      "input": "z"
+    },
+    {
+      "from": "1",
+      "to": "5",
+      "input": "0"
+    },
+    {
+      "from": "1",
+      "to": "5",
+      "input": "n"
+    },
+    {
+      "from": "2",
+      "to": "5",
+      "input": "g"
+    },
+    {
+      "from": "2",
+      "to": "5",
+      "input": "e"
+    },
+    {
+      "from": "2",
+      "to": "3",
+      "input": "l"
+    },
+    {
+      "from": "2",
+      "to": "5",
+      "input": "d"
+    },
+    {
+      "from": "2",
+      "to": "5",
+      "input": "z"
+    },
+    {
+      "from": "2",
+      "to": "5",
+      "input": "o"
+    },
+    {
+      "from": "3",
+      "to": "5",
+      "input": "g"
+    },
+    {
+      "from": "2",
+      "to": "5",
+      "input": "n"
+    },
+    {
+      "from": "3",
+      "to": "5",
+      "input": "e"
+    },
+    {
+      "from": "3",
+      "to": "5",
+      "input": "l"
+    },
+    {
+      "from": "3",
+      "to": "4",
+      "input": "d"
+    },
+    {
+      "from": "3",
+      "to": "5",
+      "input": "z"
+    },
+    {
+      "from": "3",
+      "to": "5",
+      "input": "o"
+    },
+    {
+      "from": "4",
+      "to": "5",
+      "input": "g"
+    },
+    {
+      "from": "4",
+      "to": "5",
+      "input": "e"
+    },
+    {
+      "from": "4",
+      "to": "5",
+      "input": "l"
+    },
+    {
+      "from": "4",
+      "to": "5",
+      "input": "d"
+    },
+    {
+      "from": "4",
+      "to": "5",
+      "input": "z"
+    },
+    {
+      "from": "4",
+      "to": "5",
+      "input": "o"
+    },
+    {
+      "from": "4",
+      "to": "5",
+      "input": "n"
+    },
+    {
+      "from": "5",
+      "to": "5",
+      "input": "g"
+    },
+    {
+      "from": "5",
+      "to": "5",
+      "input": "e"
+    },
+    {
+      "from": "5",
+      "to": "5",
+      "input": "l"
+    },
+    {
+      "from": "5",
+      "to": "5",
+      "input": "d"
+    },
+    {
+      "from": "5",
+      "to": "5",
+      "input": "z"
+    },
+    {
+      "from": "5",
+      "to": "5",
+      "input": "o"
+    },
+    {
+      "from": "5",
+      "to": "5",
+      "input": "n"
+    },
+    {
+      "from": "6",
+      "to": "5",
+      "input": "g"
+    },
+    {
+      "from": "6",
+      "to": "5",
+      "input": "e"
+    },
+    {
+      "from": "6",
+      "to": "5",
+      "input": "l"
+    },
+    {
+      "from": "6",
+      "to": "5",
+      "input": "d"
+    },
+    {
+      "from": "6",
+      "to": "5",
+      "input": "z"
+    },
+    {
+      "from": "6",
+      "to": "7",
+      "input": "o"
+    },
+    {
+      "from": "6",
+      "to": "5",
+      "input": "n"
+    },
+    {
+      "from": "7",
+      "to": "5",
+      "input": "g"
+    },
+    {
+      "from": "7",
+      "to": "5",
+      "input": "e"
+    },
+    {
+      "from": "7",
+      "to": "5",
+      "input": "l"
+    },
+    {
+      "from": "7",
+      "to": "5",
+      "input": "d"
+    },
+    {
+      "from": "7",
+      "to": "5",
+      "input": "z"
+    },
+    {
+      "from": "7",
+      "to": "8",
+      "input": "o"
+    },
+    {
+      "from": "7",
+      "to": "5",
+      "input": "n"
+    },
+    {
+      "from": "8",
+      "to": "5",
+      "input": "g"
+    },
+    {
+      "from": "8",
+      "to": "5",
+      "input": "e"
+    },
+    {
+      "from": "8",
+      "to": "5",
+      "input": "l"
+    },
+    {
+      "from": "8",
+      "to": "5",
+      "input": "d"
+    },
+    {
+      "from": "8",
+      "to": "5",
+      "input": "z"
+    },
+    {
+      "from": "8",
+      "to": "5",
+      "input": "o"
+    },
+    {
+      "from": "8",
+      "to": "9",
+      "input": "n"
+    },
+    {
+      "from": "9",
+      "to": "5",
+      "input": "g"
+    },
+    {
+      "from": "9",
+      "to": "5",
+      "input": "e"
+    },
+    {
+      "from": "9",
+      "to": "5",
+      "input": "l"
+    },
+    {
+      "from": "9",
+      "to": "5",
+      "input": "d"
+    },
+    {
+      "from": "9",
+      "to": "5",
+      "input": "z"
+    },
+    {
+      "from": "9",
+      "to": "5",
+      "input": "o"
+    },
+    {
+      "from": "9",
+      "to": "5",
+      "input": "n"
+    }
+  ]
+}

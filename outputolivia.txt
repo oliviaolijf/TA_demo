@@ -1,0 +1,3 @@
+De DFA met keywords is toegevoegd aan de database onder de key keywords.
+geld+zoon
+De DFA met keywords is teruggezet naar de DFA uit de database onder de keykeywords.

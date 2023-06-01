@@ -1,0 +1,106 @@
+    DFA dfa("../DFA.json");
+    cout << boolalpha << dfa.accepts("0010110100") << endl << dfa.accepts("0001") << endl;
+    dfa.print();
+    NFA nfa("../scc_tests/test3-ssc1.json");
+    nfa.toDFA().print();
+    return 0;
+
+    ENFA enfa("../mssc_tests/input-mssc1.json");
+    enfa.toDFA().print();
+    return 0;
+
+    DFA dfa1("../product_tests/input-product-or1.json");
+    DFA dfa2("../product_tests/input-product-or2.json");
+    DFA product(dfa1,dfa2,false); // true betekent doorsnede, false betekent unie
+    product.print();
+    return 0;
+
+    /*#include <iostream>
+    #include <fstream>
+    #include <iomanip>
+    #include "DFA.h"
+    #include "NFA.h"
+    #include "json.hpp"
+
+    using namespace std;
+
+    using json = nlohmann::json;
+
+    int main() {
+        NFA nfa("../input-ssc1.json");
+        //NFA nfa("../test-ssc1.json");
+        //NFA nfa("../test3-ssc1.json");
+        //DFA dfa=nfa.toDFA();
+        //dfa.print();
+
+        nfa.toDFA().print();
+
+
+    */
+        /*DFA dfa("../DFA.json");
+        cout << boolalpha << dfa.accepts("0010110100") << endl << dfa.accepts("0001") << endl;
+        dfa.print();*//*
+        return 0;
+    }*/
+    /*
+    int main(){
+        // inlezen uit file
+        ifstream input("../DFA.json");
+
+
+        json j;
+        input >> j;
+
+        //DFA maken
+        DFA A;
+        //alfabet bepalen
+        vector<string> v;
+
+        for (int i = 0; i < j["alphabet"].size() ; ++i) {
+            v.push_back(j["alphabet"][i]);
+        }
+        A.setAlphabet(v);
+
+        //States aanmaken en opslaan in vector "states"
+        vector<State*> states;
+        for (int i = 0; i < j["states"].size() ; ++i) {
+
+            State* s=new State(j["states"][i]["name"]); //naam bepalen
+            s->setAccepting(j["states"][i]["accepting"]); //accept state?
+            s->setStarting(j["states"][i]["starting"]); //start state?
+            states.push_back(s);
+        }
+
+        //set states of DFA
+        A.setStates(states);
+        for (int i = 0; i < j["transitions"].size() ; ++i) {
+
+            A.setTransitionFunction(j["transitions"][i]["from"],j["transitions"][i]["to"],j["transitions"][i]["input"]);
+        }
+
+
+
+        cout << boolalpha <<  A.accepts("1") << endl << A.accepts("0010110100") << endl << A.accepts("0001") << endl;
+
+        // manueel aanmaken
+        return 0;
+    }*/
+
+    /*
+    State * s0 = new State("s0");
+    State * s1 = new State("s1");
+    State * s2 = new  State("s2");
+
+    setStates({s0,s1,s2});
+
+    s0->setTransitionFunction({s0,s1});
+    s1->setTransitionFunction({s2,s0});
+    s2->setTransitionFunction({s1,s2});
+
+
+    setAlphabet(vector<char>{'0','1'});
+
+    setF(set<const State * > {s0});
+
+    setStart(s0);
+     */

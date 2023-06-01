@@ -1,0 +1,141 @@
+{
+  "type": "NFA",
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "states": [
+    {
+      "name": "q0",
+      "starting": true,
+      "accepting": false
+    },
+    {
+      "name": "q1",
+      "starting": false,
+      "accepting": false
+    },
+    {
+      "name": "q2",
+      "starting": false,
+      "accepting": false
+    },
+    {
+      "name": "q3",
+      "starting": false,
+      "accepting": false
+    },
+    {
+      "name": "q4",
+      "starting": false,
+      "accepting": true
+    },
+    {
+      "name": "q5",
+      "starting": false,
+      "accepting": true
+    },
+    {
+      "name": "q6",
+      "starting": false,
+      "accepting": true
+    },
+    {
+      "name": "q7",
+      "starting": false,
+      "accepting": true
+    },
+    {
+      "name": "q8",
+      "starting": false,
+      "accepting": true
+    },
+    {
+      "name": "q9",
+      "starting": false,
+      "accepting": true
+    },
+    {
+      "name": "q10",
+      "starting": false,
+      "accepting": true
+    }
+  ],
+  "transitions": [
+    {
+      "from": "q0",
+      "to": "q3",
+      "input": "0"
+    },
+    {
+      "from": "q0",
+      "to": "q2",
+      "input": "0"
+    },
+    {
+      "from": "q0",
+      "to": "q1",
+      "input": "0"
+    },
+    {
+      "from": "q0",
+      "to": "q10",
+      "input": "0"
+    },
+    {
+      "from": "q1",
+      "to": "q1",
+      "input": "1"
+    },
+    {
+      "from": "q3",
+      "to": "q2",
+      "input": "0"
+    },
+    {
+      "from": "q3",
+      "to": "q1",
+      "input": "0"
+    },
+    {
+      "from": "q2",
+      "to": "q4",
+      "input": "0"
+    },
+    {
+      "from": "q10",
+      "to": "q4",
+      "input": "0"
+    },
+    {
+      "from": "q10",
+      "to": "q5",
+      "input": "0"
+    },
+    {
+      "from": "q10",
+      "to": "q6",
+      "input": "0"
+    },    {
+      "from": "q5",
+      "to": "q10",
+      "input": "0"
+    },
+    {
+      "from": "q4",
+      "to": "q5",
+      "input": "0"
+    },
+    {
+      "from": "q5",
+      "to": "q4",
+      "input": "0"
+    },
+    {
+      "from": "q5",
+      "to": "q0",
+      "input": "0"
+    }
+
+  ]
+}

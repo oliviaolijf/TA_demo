@@ -1,0 +1,102 @@
+{
+  "type": "NFA",
+  "alphabet": [
+    "a",
+    "b",
+    "c"
+  ],
+  "states": [
+    {
+      "name": "q0",
+      "starting": true,
+      "accepting": false
+    },
+    {
+      "name": "q1",
+      "starting": false,
+      "accepting": false
+    },
+    {
+      "name": "q2",
+      "starting": false,
+      "accepting": true
+    },
+    {
+      "name": "q3",
+      "starting": false,
+      "accepting": false
+    },
+    {
+      "name": "q4",
+      "starting": false,
+      "accepting": false
+    }
+  ],
+  "transitions": [
+    {
+      "from": "q0",
+      "to": "q2",
+      "input": "a"
+    },
+    {
+      "from": "q0",
+      "to": "q1",
+      "input": "b"
+    },
+    {
+      "from": "q1",
+      "to": "q0",
+      "input": "a"
+    },
+    {
+      "from": "q1",
+      "to": "q2",
+      "input": "b"
+    },
+    {
+      "from": "q2",
+      "to": "q2",
+      "input": "b"
+    },
+    {
+      "from": "q2",
+      "to": "q2",
+      "input": "a"
+    },
+    {
+      "from": "q1",
+      "to": "q1",
+      "input": "a"
+    },
+    {
+      "from": "q0",
+      "to": "q0",
+      "input": "a"
+    },
+    {
+      "from": "q0",
+      "to": "q0",
+      "input": "b"
+    },
+    {
+      "from": "q1",
+      "to": "q1",
+      "input": "b"
+    },
+    {
+      "from": "q2",
+      "to": "q0",
+      "input": "a"
+    },
+    {
+      "from": "q0",
+      "to": "q3",
+      "input": "a"
+    },
+    {
+      "from": "q0",
+      "to": "q4",
+      "input": "c"
+    }
+  ]
+}
